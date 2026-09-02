@@ -1,7 +1,3 @@
-/* =========================
-   VARIABLES
-========================= */
-
 :root {
     --bg: #090909;
     --surface: #111111;
@@ -17,11 +13,6 @@
     --font-mono: 'JetBrains Mono', monospace;
     --font-sans: 'Inter', sans-serif;
 }
-
-
-/* =========================
-   RESET
-========================= */
 
 * {
     box-sizing: border-box;
@@ -41,21 +32,11 @@ body {
     line-height: 1.6;
 }
 
-
-/* =========================
-   CONTENEDOR
-========================= */
-
 .contenedor-principal {
     width: min(900px, calc(100% - 32px));
     margin: 50px auto;
     padding-bottom: 60px;
 }
-
-
-/* =========================
-   HERO / TERMINAL
-========================= */
 
 .hero {
     background-color: var(--surface);
@@ -109,11 +90,6 @@ body {
     color: var(--text-muted);
 }
 
-
-/* =========================
-   TERMINAL BODY
-========================= */
-
 .terminal-body {
     padding: 35px 30px;
 
@@ -142,8 +118,6 @@ body {
 }
 
 
-/* NOMBRE */
-
 .terminal-body .output:first-of-type {
     display: inline-block;
 
@@ -154,11 +128,6 @@ body {
 
     color: var(--text);
 }
-
-
-/* =========================
-   TYPEWRITER
-========================= */
 
 .typewriter {
     overflow: hidden;
@@ -188,11 +157,6 @@ body {
         border-color: transparent;
     }
 }
-
-
-/* =========================
-   NAVEGACIÓN
-========================= */
 
 .nav-menu {
     display: flex;
@@ -227,11 +191,6 @@ body {
     transform: translateY(-2px);
 }
 
-
-/* =========================
-   SECCIONES
-========================= */
-
 .seccion {
     margin-bottom: 70px;
     scroll-margin-top: 30px;
@@ -254,11 +213,6 @@ p {
     max-width: 70ch;
 }
 
-
-/* =========================
-   SOBRE MÍ
-========================= */
-
 .sobre-mi-contenido {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -272,11 +226,6 @@ p {
 
     color: var(--text-muted);
 }
-
-
-/* =========================
-   DATOS PERSONALES
-========================= */
 
 .datos-personales {
     display: flex;
@@ -327,11 +276,6 @@ p {
     color: var(--text-muted);
 }
 
-
-/* =========================
-   BLOQUES
-========================= */
-
 .cmd-block {
     background-color: var(--surface);
 
@@ -353,11 +297,6 @@ p {
     transform: translateY(-2px);
     border-color: #444444;
 }
-
-
-/* =========================
-   LISTA INFORMACIÓN
-========================= */
 
 .lista-info {
     list-style: none;
@@ -385,11 +324,6 @@ p {
 .lista-info a:hover {
     text-decoration: underline;
 }
-
-
-/* =========================
-   HABILIDADES
-========================= */
 
 .habilidades-grid {
     display: grid;
@@ -431,11 +365,6 @@ p {
     background: #222222;
     transform: translateY(-2px);
 }
-
-
-/* =========================
-   PROYECTOS
-========================= */
 
 .proyecto {
     position: relative;
@@ -483,11 +412,6 @@ p {
     color: var(--text);
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
 footer {
     margin-top: 80px;
 
@@ -508,20 +432,10 @@ footer {
         parpadeo 1s step-end infinite;
 }
 
-
-/* =========================
-   ACCESIBILIDAD
-========================= */
-
 a:focus-visible {
     outline: 2px solid #ffffff;
     outline-offset: 3px;
 }
-
-
-/* =========================
-   REDUCIR ANIMACIONES
-========================= */
 
 @media (prefers-reduced-motion: reduce) {
 
@@ -539,11 +453,6 @@ a:focus-visible {
         animation: none;
     }
 }
-
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 700px) {
 
