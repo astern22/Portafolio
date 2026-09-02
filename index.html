@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/style.css">
+    <title>Portafolio - Katherin</title>
+</head>
+<body>
+    <div class="contenedor-principal">
+
+        <header class="hero">
+            <div class="terminal-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="terminal-title">katherin@unicauca:~</span>
+            </div>
+            <div class="terminal-body">
+                <p class="prompt-line"><span class="prompt">$</span> whoami</p>
+                <p class="output typewriter">Katherin Chamorro — Ingeniería de Sistemas</p>
+                <p class="prompt-line"><span class="prompt">$</span> cat intro.txt</p>
+                <p class="output">Estudiante interesada en backend, ciberseguridad y pentesting.</p>
+            </div>
+            <nav class="nav-menu">
+                <a href="#sobre-mi">sobre-mi</a>
+                <a href="#habilidades">habilidades</a>
+                <a href="#proyectos">proyectos</a>
+                <a href="#contacto">contacto</a>
+            </nav>
+        </header>
+
+        <section id="sobre-mi">
+            <h2><span class="comment">// </span>Sobre mí</h2>
+            <p>
+                Hola, soy Katherin, estudiante de Ingeniería de Sistemas.
+                Me interesa la programación y la tecnología. Actualmente estoy
+                aprendiendo y desarrollando mis habilidades en diferentes
+                áreas de la informática.
+            </p>
+            <p>
+                Tengo interés especialmente en el desarrollo backend. Me gusta
+                aprender cosas nuevas y enfrentar problemas que me permitan
+                mejorar mis conocimientos.
+            </p>
+
+            <div class="cmd-block">
+                <p class="prompt-line"><span class="prompt">$</span> cat info.json</p>
+                <ul class="lista-info">
+                    <li><span class="key">ciudad</span>: Popayán, Colombia</li>
+                    <li><span class="key">carrera</span>: Ingeniería de Sistemas</li>
+                    <li><span class="key">universidad</span>: Universidad del Cauca</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2><span class="comment">// </span>Habilidades</h2>
+
+            <div class="cmd-block">
+                <p class="prompt-line"><span class="prompt">$</span> ls lenguajes/</p>
+                <ul class="lista-tags">
+                    <li>[Java]</li>
+                    <li>[Python]</li>
+                    <li>[C++]</li>
+                    <li>[SQL]</li>
+                </ul>
+            </div>
+
+            <div class="cmd-block">
+                <p class="prompt-line"><span class="prompt">$</span> ls tecnologias/</p>
+                <ul class="lista-tags">
+                    <li>[Spring Boot]</li>
+                    <li>[MySQL]</li>
+                    <li>[Git]</li>
+                    <li>[Burp Suite]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2><span class="comment">// </span>Proyectos</h2>
+
+            <article class="proyecto">
+                <p class="prompt-line"><span class="prompt">$</span> ./ingenieria-software.sh --run</p>
+                <h3>Proyecto de Ingeniería de Software</h3>
+                <p class="output">
+                    Proyecto universitario enfocado en la gestión de procesos
+                    relacionados con trabajos de grado. Desarrollado con
+                    tecnologías de programación y bases de datos.
+                </p>
+            </article>
+
+            <article class="proyecto">
+                <p class="prompt-line"><span class="prompt">$</span> ./gestion-app.sh --run</p>
+                <h3>Aplicación de gestión</h3>
+                <p class="output">
+                    Aplicación desarrollada como proyecto académico para
+                    gestionar información y realizar operaciones sobre una
+                    base de datos.
+                </p>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2><span class="comment">// </span>Contacto</h2>
+            <div class="cmd-block">
+                <p class="prompt-line"><span class="prompt">$</span> cat contacto.txt</p>
+                <ul class="lista-info">
+                    <li><span class="key">correo</span>: <a href="mailto:katherincoral@unicauca.edu.co">katherincoral@unicauca.edu.co</a></li>
+                    <li><span class="key">github</span>: <a href="https://github.com/astern22" target="_blank">github.com/astern22</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p class="prompt-line"><span class="prompt">$</span> <span class="cursor-blink">_</span> © 2026 Katherin</p>
+        </footer>
+
+    </div>
+</body>
+</html>
