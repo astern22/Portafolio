@@ -1,125 +1,689 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portafolio de Katherin Chamorro, estudiante de Ingeniería de Sistemas."
+    >
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="lib/style.css">
-    <title>Portafolio - Katherin</title>
+
+    <title>Katherin — Portafolio</title>
 </head>
+
 <body>
-    <div class="contenedor-principal">
 
-        <header class="hero">
-            <div class="terminal-bar">
-                <span class="dot dot-red"></span>
-                <span class="dot dot-yellow"></span>
-                <span class="dot dot-green"></span>
-                <span class="terminal-title">katherin@unicauca:~</span>
-            </div>
-            <div class="terminal-body">
-                <p class="prompt-line"><span class="prompt">$</span> whoami</p>
-                <p class="output typewriter">Katherin Chamorro — Ingeniería de Sistemas</p>
-                <p class="prompt-line"><span class="prompt">$</span> cat intro.txt</p>
-                <p class="output">Estudiante interesada en backend y programación.</p>
-            </div>
-            <nav class="nav-menu">
-                <a href="#sobre-mi">sobre-mi</a>
-                <a href="#habilidades">habilidades</a>
-                <a href="#proyectos">proyectos</a>
-                <a href="#contacto">contacto</a>
-            </nav>
-        </header>
+    <div class="grain"></div>
 
-        <section id="sobre-mi">
-            <h2><span class="comment">// </span>Sobre mí</h2>
-            <p>
-                Hola, soy Katherin, estudiante de Ingeniería de Sistemas.
-                Me interesa la programación y la tecnología. Actualmente estoy
-                aprendiendo y desarrollando mis habilidades en diferentes
-                áreas de la informática.
-            </p>
-            <p>
-                Tengo interés especialmente en el desarrollo backend. Me gusta
-                aprender cosas nuevas y enfrentar problemas que me permitan
-                mejorar mis conocimientos.
-            </p>
+    <!-- =========================================
+         NAVEGACIÓN
+    ========================================== -->
 
-            <div class="cmd-block">
-                <p class="prompt-line"><span class="prompt">$</span> cat info.json</p>
-                <ul class="lista-info">
-                    <li><span class="key">ciudad</span>: Popayán, Colombia</li>
-                    <li><span class="key">carrera</span>: Ingeniería de Sistemas</li>
-                    <li><span class="key">universidad</span>: Universidad del Cauca</li>
-                </ul>
-            </div>
-        </section>
+    <header class="site-header">
 
-        <section id="habilidades">
-            <h2><span class="comment">// </span>Habilidades</h2>
+        <a href="#inicio" class="logo">
+            K.
+        </a>
 
-            <div class="cmd-block">
-                <p class="prompt-line"><span class="prompt">$</span> ls lenguajes/</p>
-                <ul class="lista-tags">
-                    <li>[Java]</li>
-                    <li>[Python]</li>
-                    <li>[C++]</li>
-                    <li>[SQL]</li>
-                </ul>
+        <nav class="main-nav" aria-label="Navegación principal">
+
+            <a href="#sobre-mi">Sobre mí</a>
+
+            <a href="#habilidades">Habilidades</a>
+
+            <a href="#proyectos">Proyectos</a>
+
+            <a href="#contacto">Contacto</a>
+
+            <span class="nav-separator"></span>
+
+            <a
+                href="https://astern22.github.io/RitualCafe/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Ritual Café ↗
+            </a>
+        </nav>
+
+        <span class="header-year">
+            2026
+        </span>
+
+    </header>
+
+
+    <main id="inicio">
+
+        <!-- =========================================
+             HERO
+        ========================================== -->
+
+        <section class="hero">
+
+            <div class="hero-small">
+                PORTAFOLIO PERSONAL
             </div>
 
-            <div class="cmd-block">
-                <p class="prompt-line"><span class="prompt">$</span> ls tecnologias/</p>
-                <ul class="lista-tags">
-                    <li>[Spring Boot]</li>
-                    <li>[MySQL]</li>
-                    <li>[Git]</li>
-                    <li>[Burp Suite]</li>
-                </ul>
+            <div class="hero-number">
+                01
             </div>
-        </section>
 
-        <section id="proyectos">
-            <h2><span class="comment">// </span>Proyectos</h2>
+            <div class="hero-title">
 
-            <article class="proyecto">
-                <p class="prompt-line"><span class="prompt">$</span> ./ingenieria-software.sh --run</p>
-                <h3>Proyecto de Ingeniería de Software</h3>
-                <p class="output">
-                    Proyecto universitario enfocado en la gestión de procesos
-                    relacionados con trabajos de grado. Desarrollado con
-                    tecnologías de programación y bases de datos.
+                <span class="title-line title-katherin">
+                    KATHERIN
+                </span>
+
+                <span class="title-line title-chamorro">
+                    CHAMORRO
+                </span>
+
+            </div>
+
+            <div class="hero-description">
+
+                <p>
+                    Estudiante de Ingeniería de Sistemas
+                    interesada en crear, aprender y entender
+                    cómo funcionan las cosas.
                 </p>
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <span>
+                    POPAYÁN · COLOMBIA
+                </span>
+
+                <span>
+                    SCROLL TO EXPLORE
+                </span>
+
+                <span class="arrow-down">
+                    ↓
+                </span>
+
+            </div>
+
+            <div class="arch" aria-hidden="true">
+
+                <div class="arch-inner"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             SOBRE MÍ
+        ========================================== -->
+
+        <section id="sobre-mi" class="section about">
+
+            <div class="section-label">
+                <span>02</span>
+                SOBRE MÍ
+            </div>
+
+            <div class="about-layout">
+
+                <div class="about-title">
+
+                    <span class="small-italic">
+                        Un poco
+                    </span>
+
+                    <h2>
+                        sobre<br>
+                        mí<span>.</span>
+                    </h2>
+
+                </div>
+
+                <div class="about-text">
+
+                    <p class="about-large">
+                        Soy Katherin, estudiante de
+                        <strong>Ingeniería de Sistemas</strong>
+                        en la Universidad del Cauca.
+                    </p>
+
+                    <p>
+                        Me gusta aprender haciendo. He pasado por diferentes
+                        áreas de la informática, desde desarrollo de software
+                        y bases de datos hasta redes, Linux y seguridad web.
+                    </p>
+
+                    <p>
+                        Actualmente estoy explorando especialmente el
+                        desarrollo backend y la seguridad informática,
+                        mientras sigo construyendo proyectos para entender
+                        mejor cómo se conectan todas estas áreas.
+                    </p>
+
+                    <p>
+                        Este espacio reúne algunos de esos proyectos,
+                        experimentos y cosas que voy aprendiendo por el camino.
+                    </p>
+
+                    <div class="about-details">
+
+                        <div>
+                            <span>ESTUDIO</span>
+                            <strong>Ingeniería de Sistemas</strong>
+                        </div>
+
+                        <div>
+                            <span>UNIVERSIDAD</span>
+                            <strong>Universidad del Cauca</strong>
+                        </div>
+
+                        <div>
+                            <span>UBICACIÓN</span>
+                            <strong>Popayán, Colombia</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             HABILIDADES
+        ========================================== -->
+
+        <section id="habilidades" class="section skills">
+
+            <div class="section-label">
+                <span>03</span>
+                HERRAMIENTAS
+            </div>
+
+            <div class="skills-intro">
+
+                <h2>
+                    Cosas con las<br>
+                    que trabajo<span>.</span>
+                </h2>
+
+                <p>
+                    No una lista de porcentajes. Son herramientas y tecnologías
+                    que forman parte de lo que estoy aprendiendo y construyendo.
+                </p>
+
+            </div>
+
+
+            <div class="skills-list">
+
+                <div class="skill-row">
+
+                    <span class="skill-index">01</span>
+
+                    <span class="skill-name">
+                        Java
+                    </span>
+
+                    <span class="skill-type">
+                        DEVELOPMENT
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">02</span>
+
+                    <span class="skill-name">
+                        Python
+                    </span>
+
+                    <span class="skill-type">
+                        DEVELOPMENT
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">03</span>
+
+                    <span class="skill-name">
+                        JavaScript
+                    </span>
+
+                    <span class="skill-type">
+                        WEB
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">04</span>
+
+                    <span class="skill-name">
+                        PostgreSQL
+                    </span>
+
+                    <span class="skill-type">
+                        DATABASE
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">05</span>
+
+                    <span class="skill-name">
+                        MySQL
+                    </span>
+
+                    <span class="skill-type">
+                        DATABASE
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">06</span>
+
+                    <span class="skill-name">
+                        Spring Boot
+                    </span>
+
+                    <span class="skill-type">
+                        BACKEND
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">07</span>
+
+                    <span class="skill-name">
+                        Git
+                    </span>
+
+                    <span class="skill-type">
+                        TOOLS
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">08</span>
+
+                    <span class="skill-name">
+                        Linux
+                    </span>
+
+                    <span class="skill-type">
+                        SYSTEMS
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">09</span>
+
+                    <span class="skill-name">
+                        HTML / CSS
+                    </span>
+
+                    <span class="skill-type">
+                        WEB
+                    </span>
+
+                </div>
+
+                <div class="skill-row">
+
+                    <span class="skill-index">10</span>
+
+                    <span class="skill-name">
+                        Burp Suite
+                    </span>
+
+                    <span class="skill-type">
+                        SECURITY
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             PROYECTOS
+        ========================================== -->
+
+        <section id="proyectos" class="section projects">
+
+            <div class="section-label">
+                <span>04</span>
+                PROYECTOS
+            </div>
+
+            <div class="projects-heading">
+
+                <h2>
+                    Algunas cosas<br>
+                    que he hecho<span>.</span>
+                </h2>
+
+                <span class="projects-count">
+                    03 PROJECTS
+                </span>
+
+            </div>
+
+
+            <!-- =====================================
+                 RITUAL CAFÉ
+            ====================================== -->
+
+            <article class="project project-main">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-category">
+                        WEB · ACADEMIC PROJECT
+                    </div>
+
+                    <h3>
+                        Ritual Café
+                    </h3>
+
+                    <p>
+                        Una pequeña tienda web de café desarrollada como
+                        proyecto académico. Incluye catálogo de productos,
+                        carrito/panel de compra y una sección administrativa
+                        para registrar nuevos productos y gestionar el
+                        inventario.
+                    </p>
+
+                    <div class="project-tech">
+                        HTML · CSS · JAVASCRIPT · LOCALSTORAGE
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/astern22/RitualCafe"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                        <a
+                            href="RUTA_DE_TU_TIENDACAFE"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Ver tienda ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-art ritual-art">
+
+                    <div class="ritual-circle">
+                        R
+                    </div>
+
+                    <span class="art-note">
+                        RITUAL / 001
+                    </span>
+
+                    <span class="art-line"></span>
+
+                </div>
+
             </article>
 
-            <article class="proyecto">
-                <p class="prompt-line"><span class="prompt">$</span> ./gestion-app.sh --run</p>
-                <h3>Aplicación de gestión</h3>
-                <p class="output">
-                    Aplicación desarrollada como proyecto académico para
-                    gestionar información y realizar operaciones sobre una
-                    base de datos.
-                </p>
+
+            <!-- =====================================
+                 PIEDRAZUL
+            ====================================== -->
+
+            <article class="project">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-category">
+                        SOFTWARE · ACADEMIC PROJECT
+                    </div>
+
+                    <h3>
+                        Piedrazul
+                    </h3>
+
+                    <p>
+                        Aplicación desarrollada para la gestión de procesos
+                        y operaciones, trabajando con arquitectura backend,
+                        persistencia de datos y diferentes funcionalidades
+                        del sistema.
+                    </p>
+
+                    <div class="project-tech">
+                        JAVA · SPRING BOOT · MYSQL · GIT
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/astern22/PiedrazulMonolitoModular"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-side-mark">
+                    02
+                </div>
+
             </article>
+
+
+            <!-- =====================================
+                 Gestión Proyectos de Grado
+            ====================================== -->
+
+            <article class="project">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-category">
+                        JAVA · SPRINGBOOT
+                    </div>
+
+                    <h3>
+                        Gestión Proyectos de Grado
+                    </h3>
+
+                    <p>
+                        Proyecto en Java orientado a gestionar el proceso 
+                        de trabajos de grado en la Facultad de Ingeniería
+                        Electronica y Telecomunicaciones de la Universidad
+                        del Cauca.
+                    </p>
+
+                    <div class="project-tech">
+                        PYTHON · APIs · HTML · ENVIRONMENT VARIABLES
+                    </div>
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/astern22/GestionTrabajosGrado"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-side-mark">
+                    03
+                </div>
+
+            </article>
+
         </section>
 
-        <section id="contacto">
-            <h2><span class="comment">// </span>Contacto</h2>
-            <div class="cmd-block">
-                <p class="prompt-line"><span class="prompt">$</span> cat contacto.txt</p>
-                <ul class="lista-info">
-                    <li><span class="key">correo</span>: <a href="mailto:katherincoral@unicauca.edu.co">katherincoral@unicauca.edu.co</a></li>
-                    <li><span class="key">github</span>: <a href="https://github.com/astern22" target="_blank">github.com/astern22</a></li>
-                </ul>
+
+        <!-- =========================================
+             CONTACTO
+        ========================================== -->
+
+        <section id="contacto" class="section contact">
+
+            <div class="section-label">
+                <span>05</span>
+                CONTACTO
             </div>
+
+            <div class="contact-layout">
+
+                <div class="contact-title">
+
+                    <span>
+                        ¿Hablamos?
+                    </span>
+
+                    <h2>
+                        Katherin<span>.</span>
+                    </h2>
+
+                </div>
+
+                <div class="contact-info">
+
+                    <p>
+                        Puedes encontrarme en estos espacios.
+                    </p>
+
+                    <a
+                        href="mailto:katherincoral@unicauca.edu.co"
+                        class="contact-item"
+                    >
+                        <span>EMAIL</span>
+
+                        <strong>
+                            katherincoral@unicauca.edu.co
+                        </strong>
+
+                        <span>↗</span>
+                    </a>
+
+                    <a
+                        href="https://github.com/astern22"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-item"
+                    >
+                        <span>GITHUB</span>
+
+                        <strong>
+                            github.com/astern22
+                        </strong>
+
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <footer>
-            <p class="prompt-line"><span class="prompt">$</span> <span class="cursor-blink">_</span> © 2026 Katherin</p>
-        </footer>
+    </main>
 
-    </div>
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <div class="footer-top">
+
+            <span>
+                KATHERIN CHAMORRO
+            </span>
+
+            <span>
+                INGENIERÍA DE SISTEMAS
+            </span>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026
+            </span>
+
+            <span>
+                POPAYÁN · COLOMBIA
+            </span>
+
+            <a href="#inicio">
+                VOLVER ARRIBA ↑
+            </a>
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
